@@ -1,0 +1,136 @@
+.light .main-bg {
+    background-color: var(--secondary-color);
+}
+
+.light .menu {
+    border-bottom: 0.1rem solid var(--primary-color);
+}
+
+.light .menu h1 {
+    color: var(--primary-color);
+}
+
+.light .menu ul li a {
+    color: var(--primary-color);
+}
+
+.light .menu ul li a::after {
+    background: var(--primary-color);
+}
+
+.light p {
+    color: var(--primary-color);
+}
+
+.light .section-spacing {
+    background-color: var(--secondary-color);
+    height: 6.5rem;
+}
+
+.light .button-left,
+.light .button-right,
+.light .button-left-intro {
+    background-color: #3b3b3b2f;
+}
+
+.light .card-container .card {
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+.light .card-container .card .content h2 {
+    color: rgba(18, 18, 18, 0.05);
+}
+
+.light .card-container .card .content h3,
+.light .card-container .card .content p {
+    color: var(--primary-color)
+}
+
+.light .projects-container .projects {
+    background-color: rgba(255, 255, 255, 0.432);
+    box-shadow: 2rem 2rem 5rem rgba(121, 120, 120, 0.4);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    color: var(--primary-color)
+}
+
+.light .footer {
+    background-color: var(--secondary-color);
+    border-top: 0.1rem solid var(--primary-color);
+}
+
+.light .footer a {
+    color: var(--primary-color);
+}
+
+.light .back-to-top {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.light .close-menu-label::after {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox:checked+.label .ball {
+    transform: translateX(25px);
+}
+
+.label {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    height: 26px;
+    width: 52px;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.ball {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    transform: translateX(-4px);
+    transition: transform 0.2s linear;
+}
+
+.container-sun {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transform: translateX(-4px);
+}
+
+.container-moon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sun {
+    color: #f1c40f
+}
+
+.moon {
+    color: #f39c12;
+}
