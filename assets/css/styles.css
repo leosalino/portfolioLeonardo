@@ -475,7 +475,7 @@ p {
     border: 0.1rem solid var(--primary-color);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 
     .home-content,
     .grid {
